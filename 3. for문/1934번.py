@@ -10,3 +10,6 @@ for n in range(N):
            break
     lcm = (A * B) // gcd 
     print(lcm)
+ 
+
+ a = 1
