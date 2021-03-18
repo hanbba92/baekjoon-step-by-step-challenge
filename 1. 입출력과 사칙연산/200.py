@@ -1,3 +1,9 @@
-A,B=[int(x) for x in input().split()]
+a = int(input())
+b = input()
 
-print(A-B)
+axb2 = a * int(b[2])
+axb1 = a * int(b[1])
+axb0 = a * int(b[0])
+axb = a * int(b)
+
+print(axb2,axb1, axb0, axb, sep ='\n')
