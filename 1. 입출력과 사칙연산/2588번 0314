@@ -1,0 +1,7 @@
+a, b = input().split()
+a, b = int(A), int(B)
+
+print(a*b[-1])
+print(a*b[-2])
+print(a*b[0])
+print(a*b)
