@@ -79,6 +79,7 @@ def pleaseConformWithoutHat(caps):
             else:
                 print('People in positions', t[0],
                 'through',t[1], "flip your caps!")
+    print(interval)
 
 cap3=['F','F','B','H','B','F','B','B','B','F','H','F','F']
 #pleaseConformWithoutHat(cap3)
@@ -102,10 +103,13 @@ def runlength(codes):
 print(runlength("hihihhhhiihh"))
 
 def decodeRL(coded):
+    count=""
     for i in coded:
         if i.isalpha():
+            count=int(count)
             print(count*i,end="")
+            count=""
         else:
-            count=int(i)
+            count+="{}".format(i)
 
-decodeRL(runlength("hihihhhiihh"))
+decodeRL("10h10b10b")
