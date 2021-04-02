@@ -100,7 +100,7 @@ def bestTimeToPartySmartwithScore(schedule):
     sched=sortlist(times)
     max,time,count=chooseTimewithScore(sched,score)
     print('Best time to attend the party is at', time , 'o\clock', ':', count, 
-        'celebrities will be attending! and you can enjoy total likeness rate of',max,"!")
+        'celebrities will be attending! and you can enjoy total likeness of',max,"!")
 
 
 bestTimeToPartySmartwithScore(sched3)
