@@ -1,0 +1,7 @@
+def d(n):
+    return n + sum(map(int,list(str(n))))
+self_numbers = []
+for i in range(1,10001):
+    if i not in self_numbers:
+        print(i)
+    self_numbers.append(d(i))
