@@ -1,0 +1,4 @@
+b=str(input())
+a='abcdefghijklmnopqrstuvwxyz'
+for x in a:
+    print(b.find(x), end=' ')
