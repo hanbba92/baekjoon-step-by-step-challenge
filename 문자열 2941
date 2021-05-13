@@ -1,0 +1,7 @@
+A=['c=','c-','dz=','d-','lj','nj','s=','z=']
+B=input()
+for c in A:
+    B=B.replace(c,'%')
+                
+                
+print(len(B))            
