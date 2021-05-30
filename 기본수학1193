@@ -1,0 +1,14 @@
+import sys
+num = int(sys.stdin.readline())     
+tmp = num                           
+count = 0                     
+while tmp > 0:
+    count += 1
+    tmp -= count
+arr = list(range(1, count+1))
+p = count + tmp - 1
+brr = arr[::-1]
+if (count) % 2 != 1:
+    print("%d/%d" %(arr[p],brr[p]))
+else:
+    print("%d/%d" %(brr[p],arr[p]))
